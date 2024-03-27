@@ -8,10 +8,17 @@ body {
   background-color: #000;
   color: #fff;
   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure full viewport height */
 }
 
 .App {
   gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
 }
 
 .employe-box {
